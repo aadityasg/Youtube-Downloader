@@ -109,7 +109,7 @@ while True:
                     download(url, filename)
                     print "Download completed successfully !!!"
                     ans=raw_input("Want to download more videos ?(y/n)")
-                    if ans!='y' or ans!='Y':
+                    if ans!='y' and ans!='Y':
                         print "Thank You for using this software\nHope you liked it and will use it again !!"
                         ans='n'
                         sys.exit(0)
