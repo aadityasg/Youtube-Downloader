@@ -1,7 +1,6 @@
 import urllib
 from urllib import urlretrieve
 import time
-from easygui import *
 import sys
 import os
 
