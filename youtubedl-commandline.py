@@ -15,7 +15,7 @@ def download(url, filename):
         #prev=(bar.curval/1024.0)
         prev=(curval/1024.0)
         currentt=time.time()
-         current=curval/1024.0
+        current=curval/1024.0
         
         if (currentt-prevt)!=0:
             totalt=1/(currentt-prevt)
